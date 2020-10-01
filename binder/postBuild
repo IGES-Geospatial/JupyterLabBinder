@@ -1,2 +1,2 @@
 set -ex
-jupyter lab build
+jupyter lab clean
