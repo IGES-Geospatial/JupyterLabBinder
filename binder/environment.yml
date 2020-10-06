@@ -8,6 +8,7 @@ dependencies:
 - nodejs=10.13
 - nbconvert=6
 - widgetsnbextension=3.5
+- voila
 # Python Kernel
 - python=3.8
 - pandas=1.1
