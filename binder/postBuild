@@ -1,6 +1,7 @@
 set -ex
 
-invoke build
+invoke build --env-name=root --no-kernel
 invoke notebookfiles
 rm -rf notebooks
+#invoke environment
 jupyter lab clean
