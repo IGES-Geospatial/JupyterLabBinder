@@ -7,8 +7,8 @@ from subprocess import check_output
 from shutil import which
 import shutil
 
-env_name = 'globe-observer-env'
-notebookfolder = 'globe-observer-notebooks'
+env_name = 'observer-geospatial-env'
+notebookfolder = 'observer-geospatial-notebooks'
 source = '' if os.name == 'nt' else 'source'
 
 

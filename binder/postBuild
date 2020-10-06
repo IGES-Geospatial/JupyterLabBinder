@@ -1,4 +1,5 @@
 set -ex
 
 invoke notebookfiles
+rm -rf notebooks
 jupyter lab clean
