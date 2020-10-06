@@ -4,6 +4,7 @@ channels:
 dependencies:
 # Jupyter
 - jupyterlab=2
+- jupyterlab_launcher
 - jupyter_dashboards
 - nodejs=10.13
 - nbconvert=6
@@ -22,4 +23,6 @@ dependencies:
 - seaborn=0.11
 - pyyaml=5.3.1
 - traittypes==0.2.1
+- traitlets>=4.3.1
+- vdom
 - invoke=1.4.1
