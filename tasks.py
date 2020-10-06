@@ -7,7 +7,7 @@ from subprocess import check_output
 from shutil import which
 import shutil
 
-env_name = 'observer-geospatial-env'
+env_name = 'observer_geospatial'
 notebookfolder = 'observer-geospatial-notebooks'
 source = '' if os.name == 'nt' else 'source'
 
@@ -26,7 +26,7 @@ def rmdir(dirname):
 @task
 def environment(ctx, clean=False, env_name=env_name):
     '''
-    Creates environment for demo
+    Creates environment for Observer Geospatial Notebooks
     Args:
     clean: deletes environment prior to reinstallation
     env_name: name of environment to install
@@ -48,9 +48,8 @@ def build(ctx, env_name=env_name, kernel=True):
     '''
     ctx.run("""
         {0!s} activate {1!s} &&
-        jupyter labextension install @jupyterlab/geojson-extension@2.0 --no-build &&
         jupyter labextension install @jupyter-widgets/jupyterlab-manager@2.0 --no-build &&
-        jupyter labextension install bqplot@0.5.6 --no-build &&
+        jupyter labextension install @jupyterlab/geojson-extension@2.0 --no-build &&
         jupyter labextension install jupyter-leaflet@0.12 --no-build &&
         jupyter lab clean && jupyter lab build --dev-build=False --minimize=False
         """.format(source, env_name).strip().replace('\n', ''))
