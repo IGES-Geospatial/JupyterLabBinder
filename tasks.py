@@ -50,7 +50,6 @@ def build(ctx, env_name=env_name, kernel=True):
         {0!s} activate {1!s} &&
         jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build &&
         jupyter labextension install @jupyter-voila/jupyterlab-preview --no-build &&
-        jupyter labextension install @jupyter-widgets/jupyterlab-manager
         jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-leaflet --no-build &&
         jupyter lab clean && jupyter lab build --dev-build=False --minimize=False
         """.format(source, env_name).strip().replace('\n', ''))
