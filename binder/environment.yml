@@ -4,7 +4,6 @@ channels:
 dependencies:
 # Jupyter
 - jupyterlab=2
-- jupyter_dashboards
 - nodejs=10.13
 - nbconvert=6
 - widgetsnbextension=3.5
