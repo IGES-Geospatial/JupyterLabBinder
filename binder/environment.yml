@@ -8,7 +8,6 @@ dependencies:
 - jupyter_dashboards
 - nodejs=10.13
 - nbconvert=6
-- nbgitpuller
 - widgetsnbextension=3.5
 - voila
 # Python Kernel

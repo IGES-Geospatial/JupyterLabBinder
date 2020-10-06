@@ -8,3 +8,4 @@ jupyter labextension install @jupyter-voila/jupyterlab-preview --no-build
 jupyter serverextension enable --py nbgitpuller --sys-prefix
 jupyter lab clean
 jupyter lab build --dev-build=False --minimize=False
+jupyter labextension enable jupyterlab-manager
