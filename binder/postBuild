@@ -1,7 +1,6 @@
 set -ex
 
-invoke environment
-invoke build --env-name=observer_geospatial --no-kernel
+invoke build
 invoke notebookfiles
 rm -rf notebooks
 jupyter lab clean
