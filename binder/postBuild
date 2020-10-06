@@ -3,4 +3,3 @@ set -ex
 invoke environment
 invoke notebookfiles
 rm -rf notebooks
-jupyter lab clean
