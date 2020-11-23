@@ -10,4 +10,4 @@ Increasing access to and usability of data from GLOBE Observer
 ### GLOBE Observer Notebooks and Dashboards
 #### Executed in the cloud via Binder
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IGES-Geospatial/JupyterLabBinder/master?urlpath=lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IGES-Geospatial/JupyterLabBinder/HEAD?urlpath=lab)
