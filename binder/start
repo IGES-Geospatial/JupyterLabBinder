@@ -3,5 +3,6 @@ set -e
 
 git clone https://github.com/Piphi5/MHM-Groups-Dashboard
 git clone https://github.com/IGES-Geospatial/Mosquito-Habitat-Scripts
+git clone https://github.com/Piphi5/Landcover-Notebook
 
 exec "$@"
