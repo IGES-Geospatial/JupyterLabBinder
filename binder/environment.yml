@@ -11,12 +11,7 @@ dependencies:
 - widgetsnbextension=3.5
 - voila
 # Python Kernel
-- io
-- pillow
-- re
-- os
-- requests
-- numpy
+- pillow=8
 - python=3.8
 - pandas=1.1
 - arcgis=1.8.2
