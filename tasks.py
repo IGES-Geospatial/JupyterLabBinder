@@ -77,6 +77,7 @@ def notebookfiles(ctx, clean=False, notebookfolder=notebookfolder):
     print('cloning repos into folder {}'.format(notebookfolder))
     reponames = [
         'Piphi5/MHM-Groups-Dashboard',
+        'Piphi5/Landcover-Notebook',
         'IGES-Geospatial/Mosquito-Habitat-Scripts'
     ]
     for repo in reponames:
