@@ -3,7 +3,7 @@ channels:
 - esri
 dependencies:
 # Jupyter
-- jupyterlab
+- jupyterlab>=3
 - jupyterlab_launcher
 - jupyter_dashboards
 - nodejs
