@@ -4,15 +4,14 @@ channels:
   - conda-forge
   - esri
 dependencies:
-# Jupyter
   - jupyterlab=2
   - jupyterlab_launcher
   - jupyter_dashboards
   - nodejs
   - nbconvert
   - widgetsnbextension
+  - plotly
   - voila
-# Python Kernel
   - pandas
   - numpy
   - arcgis
