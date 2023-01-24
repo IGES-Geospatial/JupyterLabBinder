@@ -21,6 +21,7 @@ dependencies:
   - fiona
   - pillow
   - pyarrow
+  - sqlalchemy
   - ipykernel
   - ipywidgets
   - matplotlib
