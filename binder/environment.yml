@@ -2,7 +2,7 @@ name: iges-binder-environment
 
 channels:
   - conda-forge
-  - esri
+  #- esri
 dependencies:
   - jupyterlab
   - jupyterlab_launcher
@@ -14,7 +14,7 @@ dependencies:
   - voila
   - pandas
   - numpy
-  - arcgis
+  #- arcgis
   - geopandas
   - shapely
   - fiona
