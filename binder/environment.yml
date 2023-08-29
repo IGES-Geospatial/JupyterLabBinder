@@ -4,7 +4,7 @@ channels:
   - conda-forge
   #- esri
 dependencies:
-  - jupyterlab
+  - jupyterlab<4
   - jupyterlab_launcher
   - jupyter_dashboards
   - jupyterlab_widgets
