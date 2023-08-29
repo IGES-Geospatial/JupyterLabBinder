@@ -7,3 +7,4 @@ rm -rf notebooks
 #jupyter labextension install @voila-dashboards/jupyterlab-preview --no-build
 jupyter lab clean
 #jupyter lab build --dev-build=False --minimize=False
+jupyter labextension list
