@@ -13,7 +13,6 @@ dependencies:
   - nbconvert
   - widgetsnbextension
   - plotly
-  - jupyterlab-plotly-extension
   - voila
   - pandas
   - numpy
