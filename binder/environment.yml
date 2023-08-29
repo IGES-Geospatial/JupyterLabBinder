@@ -4,14 +4,14 @@ channels:
   - conda-forge
   #- esri
 dependencies:
-  - jupyterlab<4
+  - jupyterlab
   - jupyterlab_launcher
-  - jupyter_dashboards
+  #- jupyter_dashboards
   - jupyterlab_widgets
-  - voila-gridstack
+  #- voila-gridstack
   - nodejs
   - nbconvert
-  - widgetsnbextension
+  #- widgetsnbextension
   - plotly
   - voila
   - pandas
@@ -24,7 +24,7 @@ dependencies:
   - pyarrow
   - sqlalchemy
   - ipykernel
-  - ipywidgets
+  #- ipywidgets
   - matplotlib
   - seaborn
   - pyyaml
