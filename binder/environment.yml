@@ -7,10 +7,12 @@ dependencies:
   - jupyterlab
   - jupyterlab_launcher
   - jupyter_dashboards
+  - jupyterlab_widgets
   - nodejs
   - nbconvert
   - widgetsnbextension
   - plotly
+  - jupyterlab-plotly-extension
   - voila
   - pandas
   - numpy
