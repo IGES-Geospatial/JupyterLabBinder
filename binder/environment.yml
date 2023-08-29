@@ -8,6 +8,7 @@ dependencies:
   - jupyterlab_launcher
   - jupyter_dashboards
   - jupyterlab_widgets
+  - voila-gridstack
   - nodejs
   - nbconvert
   - widgetsnbextension
