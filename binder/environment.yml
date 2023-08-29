@@ -6,12 +6,11 @@ channels:
 dependencies:
   - jupyterlab
   - jupyterlab_launcher
-  #- jupyter_dashboards
+  - jupyter_dashboards
   - jupyterlab_widgets
-  #- voila-gridstack
   - nodejs
   - nbconvert
-  #- widgetsnbextension
+  - widgetsnbextension
   - plotly
   - voila
   - pandas
@@ -24,7 +23,7 @@ dependencies:
   - pyarrow
   - sqlalchemy
   - ipykernel
-  #- ipywidgets
+  - ipywidgets
   - matplotlib
   - seaborn
   - pyyaml
