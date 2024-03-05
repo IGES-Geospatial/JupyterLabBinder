@@ -20,10 +20,8 @@ dependencies:
   - cartopy
   - cdsapi
   - eccodes
-  - torch
   - pytorch
-  - pytorch_lightning
-  - ecmwflibs
+  - pytorch-lightning
   - scikit-learn
   #- arcgis
   - geopandas
