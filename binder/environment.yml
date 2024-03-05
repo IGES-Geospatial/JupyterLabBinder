@@ -15,6 +15,16 @@ dependencies:
   - voila
   - pandas
   - numpy
+  - geopy
+  - haversine
+  - cartopy
+  - cdsapi
+  - eccodes
+  - torch
+  - pytorch
+  - pytorch_lightning
+  - ecmwflibs
+  - scikit-learn
   #- arcgis
   - geopandas
   - shapely
