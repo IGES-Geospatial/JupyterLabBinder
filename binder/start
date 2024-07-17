@@ -4,7 +4,6 @@ set -e
 git clone https://github.com/IGES-Geospatial/MHM_DuplicatePhotoNotebook
 git clone https://github.com/Piphi5/MHM-Groups-Dashboard
 git clone https://github.com/IGES-Geospatial/Mosquito-Habitat-Scripts
-git clone https://github.com/IGES-Geospatial/SEES2020-GlobePhotoDownloaderandWebScraper
 git clone https://github.com/Piphi5/Landcover-Notebook
 git clone https://github.com/nagrawa6/Wildfire
 git clone https://github.com/nagrawa6/TropicalCyclone
