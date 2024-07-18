@@ -15,8 +15,12 @@ dependencies:
   - nodejs
   - nbconvert
   - widgetsnbextension
+  - ipykernel
   - plotly
   - voila
+  - pytorch
+  - pytorch-lightning
+  - scikit-learn
   - pip
   - pip:
     - geopy
@@ -24,9 +28,6 @@ dependencies:
     - cartopy
     - cdsapi
     - eccodes
-    - pytorch
-    - pytorch-lightning
-    - scikit-learn
     - geopandas
     - shapely
     - fiona
@@ -34,7 +35,6 @@ dependencies:
     - pyarrow
     - sqlalchemy
     - openpyxl
-    - ipykernel
     - matplotlib
     - seaborn
     - pyyaml
