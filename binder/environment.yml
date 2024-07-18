@@ -2,42 +2,43 @@ name: iges-binder-environment
 
 channels:
   - conda-forge
-  #- esri
+
 dependencies:
-  - python~=3.8
+  - python=3.9
+  - numpy
+  - pandas
   - jupyterlab
   - jupyterlab_launcher
-  #- jupyter_dashboards
+  - jupyter_dashboards
   - jupyterlab_widgets
+  - ipywidgets
   - nodejs
   - nbconvert
   - widgetsnbextension
+  - ipykernel
   - plotly
   - voila
-  - pandas
-  - numpy
-  - geopy
-  - haversine
-  - cartopy
-  - cdsapi
-  - eccodes
   - pytorch
   - pytorch-lightning
   - scikit-learn
-  #- arcgis
-  - geopandas
-  - shapely
-  - fiona
-  - pillow
-  - pyarrow
-  - sqlalchemy
-  - openpyxl
-  - ipykernel
-  - ipywidgets
-  - matplotlib
-  - seaborn
-  - pyyaml
-  - traittypes
-  - traitlets
-  - vdom
-  - invoke
+  - pip
+  - pip:
+    - geopy
+    - haversine
+    - cartopy
+    - cdsapi
+    - eccodes
+    - geopandas
+    - shapely
+    - fiona
+    - pillow
+    - pyarrow
+    - sqlalchemy
+    - openpyxl
+    - matplotlib
+    - seaborn
+    - pyyaml
+    - traittypes
+    - traitlets
+    - vdom
+    - invoke
