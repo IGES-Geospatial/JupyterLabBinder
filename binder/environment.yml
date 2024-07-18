@@ -1,28 +1,44 @@
+name: minimal-iges-binder-environment
+
 channels:
-- conda-forge
-- esri
+  - conda-forge
+
 dependencies:
-# Jupyter
-- jupyterlab=2
-- jupyterlab_launcher
-- jupyter_dashboards
-- nodejs=10.13
-- nbconvert=6
-- widgetsnbextension=3.5
-- voila
-# Python Kernel
-- python=3.8
-- pandas=1.1
-- arcgis=1.8.2
-- geopandas=0.6.1
-- shapely=1.6.4
-- fiona=1.8
-- ipykernel=5.3.4
-- ipywidgets=7.5.1
-- matplotlib=3.3.1
-- seaborn=0.11
-- pyyaml=5.3.1
-- traittypes==0.2.1
-- traitlets>=4.3.1
-- vdom
-- invoke=1.4.1
+  - python=3.9
+  - numpy
+  - pandas
+  - jupyterlab
+  - jupyterlab_launcher
+  - jupyter_dashboards
+  - jupyterlab_widgets
+  - ipywidgets
+  - nodejs
+  - nbconvert
+  - widgetsnbextension
+  - plotly
+  - voila
+  - pip
+  - pip:
+    - geopy
+    - haversine
+    - cartopy
+    - cdsapi
+    - eccodes
+    - pytorch
+    - pytorch-lightning
+    - scikit-learn
+    - geopandas
+    - shapely
+    - fiona
+    - pillow
+    - pyarrow
+    - sqlalchemy
+    - openpyxl
+    - ipykernel
+    - matplotlib
+    - seaborn
+    - pyyaml
+    - traittypes
+    - traitlets
+    - vdom
+    - invoke
