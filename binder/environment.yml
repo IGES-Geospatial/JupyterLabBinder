@@ -7,7 +7,7 @@ dependencies:
   - python~=3.8
   - jupyterlab
   - jupyterlab_launcher
-  - jupyter_dashboards
+  #- jupyter_dashboards
   - jupyterlab_widgets
   - nodejs
   - nbconvert
